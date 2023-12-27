@@ -1,0 +1,50 @@
+# 1 Taking input in Python
+x= int(input("Enter first number"))
+y= int(input("Enter second number"))
+z=x+y
+print(z)
+
+
+# 2 Taking input from console in Python
+first_name = input("Enter your first name")
+second_name =input("Enter your second name")
+print( "Hello" , first_name,second_name)
+
+
+# 3 Taking multiple inputs from user in Python
+a,b,c=input("enter the three values here:").split(",")
+
+print("enter the value of a is",a)
+print("enter the value of b is",b)
+print("enter the value of c is",c)
+
+
+# 4 Python | Output using print() function
+print("Hello it's me")
+print("Mrs.Destroyer")
+
+
+# 5 How to print without newline in Python?
+print("Hello",end=" ")
+print("it's me",end=" ")
+print("Mrs.Destroyer")
+
+
+# 6_Python end parameter in print()
+print("Everything is hard",end=" ")
+print("Before it is",end=" ")
+print("easy")
+
+# 7_Python | sep parameter in print()
+Day="28"
+Month="12"
+Year="2023"
+print(Day,Month,Year, sep="/")
+print(Day,Month,Year, sep=".")
+
+
+# 8 Python | Output Formatting
+Name = "Ali"
+Age = 22
+Address = "Lahore"
+print("Name:%s Age:%d Address:%s"%(Name,Age,Address))
